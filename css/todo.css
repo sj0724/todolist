@@ -48,12 +48,13 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .input input{
     padding: 5px 20px;
 }
-#to-do-list{
+#to_do_list{
     height: 50px;
     width: 500px;
     font-size: 30px;
@@ -80,25 +81,26 @@ button{
 }
 
 .list{
+    width: 650px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 40px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 10px;
 }
 
 .info{
     height: 40px;
     width: 40px;
-    margin-left: 50px;
-}
-
-span{
-    margin: 50px;
+    margin-left: 40px;
 }
 
 .dlt-btn{
     height: 40px;
     width: 50px;
-    margin-right: 60px;
+    margin-right: 40px;
     color: black;
 }
